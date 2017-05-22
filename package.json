@@ -1,0 +1,33 @@
+{
+  "name": "crypto-server",
+  "version": "1.0.0",
+  "description": "Chat Server for End to End Encrypted client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blipn/Crypto-Server.git"
+  },
+  "keywords": [
+    "crypto",
+    "server",
+    "chat",
+    "encrypted",
+    "end to end"
+  ],
+  "author": "goto4ever",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blipn/Crypto-Server/issues"
+  },
+  "homepage": "https://github.com/blipn/Crypto-Server#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.1"
+  }
+}
